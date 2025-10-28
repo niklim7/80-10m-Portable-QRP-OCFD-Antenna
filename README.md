@@ -1,6 +1,6 @@
 80-10m 7 band Portable QRP OCFD Antenna
 
-Project Status: In Progress (Field Testing & Iteration)
+Project Status: Completed and on the air.
 
 1. Summary (Product Vision)
 
