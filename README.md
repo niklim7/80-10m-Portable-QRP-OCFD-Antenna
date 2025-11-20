@@ -1,14 +1,14 @@
-80-10m 7 band Portable QRP OCFD Antenna
+# 80-10m 7 band Portable QRP OCFD Antenna
 
 Project Status: Completed and on the air.
 
-1. Summary (Product Vision)
+## 1. Summary (Product Vision)
 
 This project documents the design, build, and field-testing of a high-performance, portable 80-10 meter Off-Center Fed Dipole (OCFD) antenna. The design is based on the proven theory by Rick DJ0IP but modified for a QRP/portable use case with a focus on lighter wire and a custom-built, ruggedized 4:1 hybrid balun.
 
 The goal is to create a robust, multi-band antenna system for 2-day contests or multi-day camping operations where performance and reliability are more critical than minimum weight.
 
-2. Design & Requirements
+## 2. Design & Requirements
 
 Base Design: DJ0IP OCFD (80m model).
 
@@ -20,7 +20,7 @@ Power: Primarily for QRP (5-10w), but the balun was over-engineered to handle 50
 
 Key Requirement: Must be able to withstand the rigors of frequent portable assembly and disassembly.
 
-3. Technical Challenge & Solution: The Hybrid Balun
+## 3. Technical Challenge & Solution: The Hybrid Balun
 
 The most critical component of this design is the 4:1 hybrid balun, which includes a common-mode choke.
 
@@ -32,7 +32,7 @@ Engineered Solution: To mitigate this risk, I "beefed up" the choke by using a s
 
 Final Assembly: The coaxial used to wind the choke was a thin but rugged Teflon-coated RG178 (1.9mm OD).
 
-4. Trade-off Decisions (Prioritizing Robustness)
+## 4. Trade-off Decisions (Prioritizing Robustness)
 
 A key decision was to prioritize ruggedness over minimum weight.
 
@@ -44,7 +44,7 @@ Pro: Makes the unit "mechanically immortal" and aids in heat dissipation at 50w.
 
 Con: This critical decision increased the balun's final weight to 251g, a significant but acceptable trade-off for reliability.
 
-5. Field Test 1: Deployment & Initial Data (Paneion Mtn, ~650m ASL)
+## 5. Field Test 1: Deployment & Initial Data (Paneion Mtn, ~650m ASL)
 
 Setup: This was the first field setup of the 14m Spiderbeam mast. Preparation (clamps, guy ropes) was time-intensive in 35°C heat, but future setups will be much faster.
 
@@ -68,7 +68,7 @@ My signal was picked up by the Reverse Beacon Network (RBN) on 40m-15m.
 
 I could clearly hear my own signal on 80m via a nearby remote SDR.
 
-6. Photos
+## 6. Photos
 
 ![Image](https://github.com/user-attachments/assets/9b9bff4e-4a1b-455a-96b8-ac01e6e5637d)
 
@@ -90,7 +90,7 @@ I could clearly hear my own signal on 80m via a nearby remote SDR.
 
 ![Image](https://github.com/user-attachments/assets/1f9ba79e-d110-49f5-b8a0-6c0c6abca9e6)
 
-7. Key Resources
+## 7. Key Resources
 
 Design Theory: Rick DJ0IP's OCFD Presentation (Theory & Construction): https://www.dj0ip.com/hhg2-ocfd
 
